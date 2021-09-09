@@ -25,7 +25,7 @@ public class MyMain {
     }
 
     // Calculates the square root iteratively, using the Babylonian method
-    public static double babylonian(int x) {
+    public static double babylonian(double x) {
         double guess = 10;
         double root = (guess + x/guess)/2;
         while (Math.abs(root - guess) > 0.00001) {
