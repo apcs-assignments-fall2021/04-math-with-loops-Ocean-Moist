@@ -19,7 +19,7 @@ public class MyMain {
         int i = 0;
         while (Math.E - e > 0.00000000001) {
             i++;
-            e += (1/factoria(i));
+            e += (1/factorial(i));
         }
         return e;
     }
