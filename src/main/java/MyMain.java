@@ -30,7 +30,7 @@ public class MyMain {
         double root = (guess + x/guess)/2;
         while (Math.abs(root - guess) > 0.00001) {
             guess = root;
-            fact = (root + x/root)/2;
+            root = (root + x/root)/2;
         }
         return root;
     }
